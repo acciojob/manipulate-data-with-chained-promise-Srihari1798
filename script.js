@@ -7,7 +7,7 @@ function manipulateData(array) {
   });
 }
 
-manipulateData([1, 2, 3, 4])
+manipulateData([1,3,5,8,10])
   .then((array) => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
